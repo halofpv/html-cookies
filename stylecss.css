@@ -52,21 +52,27 @@ body {
     width: 100%;
 }
 .about{
-    text-align: center;
-    background-color: darkgray;
+    text-align: left;
+    background-color: #f8f9fa;
     padding-bottom: 5%;
     margin-top: 3%;
 }
 .contactus{
-    margin-top: 10px;
+    background-color: #056dfd;
+    margin-bottom: 0;
     text-align: center;
-    background-color: cornflowerblue;
+    width: 200%;
+    color: whitesmoke;
 }
-.bootimg{
+.col-sm-8{
     margin-left: 3%;
     margin-right: 3%;
+}
+.bootimg{
+    margin-left: 30%;
+    margin-right: 3%;
     border-radius: 80%;
-    height: 50%;
+    height: 200%;
 }
 .info{
     margin: 10%;
@@ -80,7 +86,7 @@ body {
     margin-right: 10%;
 }
 .bootimg{
-    width: 20%;
+    width: 70%;
     height: auto;
 }
 .header{
@@ -88,10 +94,9 @@ body {
     color: aliceblue;
 }
 .container{
-    background-color: black;
     margin-top: 3%;
-    margin-left: 5%;
-    margin-right:5%;
+    margin-left: 25%;
+    margin-right:25%;
 }
 .col-md-6-about{
     background-color: darkgray;
@@ -101,4 +106,9 @@ body {
 }
 .rowup{
     display: flex;
+}
+@media screen and (max-width: 768px) {
+    .bootimg {
+        display: none;
+    }
 }
