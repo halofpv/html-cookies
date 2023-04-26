@@ -87,3 +87,18 @@ body {
     opacity: 100%;
     color: aliceblue;
 }
+.container{
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+.col-md-6-about{
+    background-color: darkgray;
+}
+.col-md-6-contactus{
+    background-color: aqua;
+}
+.rowup{
+    display: flex;
+}
